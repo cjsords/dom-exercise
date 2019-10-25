@@ -1,8 +1,13 @@
 //clicking on div with corresponding id will run the changeColor() function that changes the color
-document.getElementById("change").onclick = changeColor;
+// document.getElementById("change").onclick = changeColor;
+// function changeColor() {
+//   document.getElementById("change").style.backgroundColor = "blue";
+// }
 
+let square = document.querySelector("#change");
+square.addEventListener("click", changeColor);
 function changeColor() {
-  document.getElementById("change").style.backgroundColor = "blue";
+  square.classList.toggle("blue");
 }
 
 //make paragraph dissapear

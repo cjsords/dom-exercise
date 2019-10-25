@@ -4,6 +4,10 @@
   height: 200px;
 }
 
+.blue {
+  background-color: blue;
+}
+
 p {
   font-size: 50px;
 }
