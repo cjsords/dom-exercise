@@ -1,0 +1,21 @@
+.change-color {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  font-size: 50px;
+}
+
+#enter {
+  border: 5px solid black;
+}
+
+#clock {
+  width: 400px;
+  height: 180px;
+  color: black;
+  text-align: center;
+  font-size: 100px;
+}
